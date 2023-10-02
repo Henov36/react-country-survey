@@ -1,9 +1,7 @@
 import './darkMode.css'
 
+
 const DarkMode = () => {
-
-
-
 	const setDarkTheme = () => {
 		document.body.setAttribute('data-theme', 'dark')
 	}
@@ -21,10 +19,9 @@ const DarkMode = () => {
 		<div>
 			<input type="checkbox" className="checkbox" id='checkbox' onChange={toggleTheme} />
 			<label className="label" htmlFor='checkbox'>
-				<img src='/sun.png' alt='#'></img>
-				<img src='/moon.png' alt='#'></img>
+				<img src='/src/icons/modsIcons/sun.png' alt='#'></img>
+				<img src='/src/icons/modsIcons/moon.png' alt='#'></img>
 				<div className="point">
-
 				</div>
 			</label>
 		</div>

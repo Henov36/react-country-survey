@@ -13,7 +13,6 @@ const Header = ({ onDataFromSearch }) => {
 		fetch(`${COUNTRY_INFO_API}/alpha/${countryCode}`)
 			.then(res => res.json())
 			.then(data => {
-				console.log(data);
 				onDataFromSearch(data[0])
 			})
 	}

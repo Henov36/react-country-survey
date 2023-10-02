@@ -3,12 +3,11 @@
 	display: flex;
 	justify-content: space-between;
 	background-color: var(--header_color);
-
 }
 
 .header-options {
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
 	align-items: center;
 	min-width: 350px;
 	max-width: 387px;

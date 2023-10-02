@@ -8,9 +8,6 @@ import { useEffect, useState } from 'react';
 
 const apiKey = process.env.REACT_APP_API_KEY;
 
-
-console.log(apiKey);
-
 const CountryCard = ({ data }) => {
 
 	const [curentWeather, setCurentWeather] = useState(null)
@@ -83,7 +80,7 @@ const CountryCard = ({ data }) => {
 			{curentWeather &&
 				<div className='weather-container'>
 					<div className='weather-icon'>
-						<img alt='WR' src={`icons/${curentWeather.weather[0].icon}.png`}></img>
+						<img alt='WR' src={`/icons/${curentWeather.weather[0].icon}.png`}></img>
 					</div>
 					<div className='weather-flex'>
 						<div className='weather-temp weather-description'>
