@@ -25,7 +25,7 @@ const Map = ({ center }) => {
 		scrollwhell: false,
 		disableDoubleClickZoom: true,
 		styles: mapStyle
-		
+
 	}
 
 	const onLoad = useCallback(function callback(map) {

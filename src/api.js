@@ -12,9 +12,6 @@ export const GEO_API_OPTIONS = {
 export const COUNTRY_INFO_API = 'https://restcountries.com/v3.1'
 
 
-export const GOOGLE_API_KEY = `AIzaSyDeL5fWJCGIoqY_9-hZM2A35duJXTw_Yyo`
-
-
 export const TIME_API = `https://timeapi.io/api`
 
 

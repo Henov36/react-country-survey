@@ -1,10 +1,15 @@
 import './countryCard.css'
-import { GOOGLE_API_KEY, WEATHER_API_KEY, WEATHER_API_URL } from '../../api';
+import { WEATHER_API_KEY, WEATHER_API_URL } from '../../api';
 import Map from '../Map/map';
 import { useJsApiLoader } from '@react-google-maps/api';
 import CountryTime from './countryTime';
 import { useEffect, useState } from 'react';
 
+
+const apiKey = process.env.REACT_APP_API_KEY;
+
+
+console.log(apiKey);
 
 const CountryCard = ({ data }) => {
 
@@ -44,7 +49,7 @@ const CountryCard = ({ data }) => {
 	//google map
 	const { isLoaded } = useJsApiLoader({
 		id: 'google-map-script',
-		googleMapsApiKey: GOOGLE_API_KEY
+		googleMapsApiKey: apiKey
 	})
 
 

@@ -1,7 +1,4 @@
 
-document.body.hasAttribute('dark') ? console.log('dark') : console.log('light'); 
-
-
 export const mapStyle = [
 	{
 		"featureType": "all",
