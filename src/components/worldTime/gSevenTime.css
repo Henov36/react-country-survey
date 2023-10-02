@@ -1,0 +1,166 @@
+.g-seven {
+	padding: 20px;
+	min-width: 350px;
+	animation: startCountriesAnimation 1s linear;
+}
+
+@keyframes startCountriesAnimation {
+	0% {
+		transform: translateY(100vh);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.g-seven-title {
+	padding-top: 22px;
+	margin-bottom: 30px;
+}
+
+.g-seven-title h1 {
+	color: var(--countries_time_title);
+	font-size: 40px;
+	font-size: 700;
+	text-align: right;
+	margin: 0;
+}
+
+.g-seven-countries {
+	color: var(--countries_text_color)
+}
+
+.country-row {
+	height: 50px;
+	margin-bottom: 10px;
+	padding: 0px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--countries_dashboard_bc);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 30px;
+	transition: ease 0.3s all;
+	position: relative;
+	-webkit-box-shadow: 2px 1px 17px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 1px 17px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 1px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.country-row:last-child {
+	margin: 0;
+}
+
+.country-row:hover {
+	background-color: var(--countries_dashboard_bc_hover);
+	color: var(--countries_text_color_hover);
+	transition: ease 0.3s all;
+}
+
+.name-and-flag {
+	display: flex;
+	align-items: center;
+	pointer-events: none;
+}
+
+.name-and-flag :last-child {
+	margin: 0px 10px;
+}
+
+.country-row-name {
+	font-size: 30px;
+}
+
+.country-row img {
+	width: 30px;
+	height: 20px;
+}
+
+.time {
+	pointer-events: none;
+	width: 110px;
+	text-align: center;
+}
+
+@media(max-width: 1260px) {
+	.g-seven-title {
+		padding: 0;
+	}
+}
+
+
+@media(max-width: 1150px) {
+	.country-row {
+		height: 90px;
+	}
+		.country-row-name {
+		font-size: 24px;
+		}
+		.time{
+			font-size: 24px;
+		}
+}
+
+
+@media(max-width: 926px) {
+
+	h1 {
+		font-size: 34px !important;
+	}
+
+	.g-seven {
+		min-width: 180px;
+	}
+
+
+
+	.country-row {
+		width: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		font-size: 26px;
+
+	}
+
+	.country-row-name {
+		font-size: 20px;
+	}
+}
+
+
+@media(max-width: 695px) {
+	.g-seven {
+		padding: 10px;
+	}
+
+	.g-seven-countries {
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		gap: 5px;
+	}
+
+	.g-seven-title {
+		margin-bottom: 15px;
+	}
+
+	.country-row {
+		width: 139px;
+		font-size: 20px;
+		margin: 0;
+
+	}
+
+	.country-row-name {
+		font-size: 16px;
+	}
+
+	.name-and-flag img {
+		width: 25px;
+		height: 15px;
+	}
+}
