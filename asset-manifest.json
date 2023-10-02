@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-country-survey/static/css/main.c4da05a7.css",
-    "main.js": "/react-country-survey/static/js/main.718cb733.js",
+    "main.css": "/react-country-survey/static/css/main.da8f88df.css",
+    "main.js": "/react-country-survey/static/js/main.41b125a4.js",
     "index.html": "/react-country-survey/index.html",
-    "main.c4da05a7.css.map": "/react-country-survey/static/css/main.c4da05a7.css.map",
-    "main.718cb733.js.map": "/react-country-survey/static/js/main.718cb733.js.map"
+    "main.da8f88df.css.map": "/react-country-survey/static/css/main.da8f88df.css.map",
+    "main.41b125a4.js.map": "/react-country-survey/static/js/main.41b125a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4da05a7.css",
-    "static/js/main.718cb733.js"
+    "static/css/main.da8f88df.css",
+    "static/js/main.41b125a4.js"
   ]
 }
